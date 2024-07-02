@@ -1,0 +1,1258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #161616;
+    font-family: "Raleway", sans-serif; 
+    
+}
+a#active{
+    color: #f8da64 !important;
+}
+.grey-text{
+    color:#818c96;
+}
+.logo{
+    margin-left: 120px;
+}
+
+.nav-container{
+    padding-top: 0.5%;
+    padding-bottom: 2.5%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.navbar-nav .nav-item a.nav-navigation-link{
+   
+ font-size: 18px !important;
+}
+.never-stop-button{
+    padding:10px 35px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.header-heading{
+    max-width: 600px;
+    color:#fff;
+    font-size: 64px;
+}
+.explore-block a{
+background-color: #f8da64;
+text-decoration: none;
+color:black;
+border-radius: 10px;
+padding: 15px 23px;
+}
+.header{
+    border: 1px solid #fff;
+    border-top: none;
+    border-radius: 0 0 45px 45px;
+}
+.banner-container{
+    padding: 0% 0 6%;
+    max-width: 85%;
+    margin: auto;
+}
+.banner-image{
+    position: absolute;
+    
+    top:-35px;
+}
+.explore-more-container img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -21%);
+    background: #624BFF;
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer;
+}
+
+
+/* popular courses section styles */
+.courses-section{
+    padding-top: 14%;
+}
+h2.primary-heading {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.course-filter-section{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+a.course-filter-item {
+    color: #818c96;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    margin-right: 26px;
+    padding: 5px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.course-filter-section a.course-filter-item.active {
+    background-color: #624bff;
+    color:white ;
+    border-color: #624bff;
+}
+.course-mobile-filters{
+    display: none;
+}
+
+/* courses each card styles */
+.each-card-content{
+    background: #212121;
+    position: relative;
+    padding: 22px 10px 10px;
+    border-radius: 0 0 12px 12px;
+}
+.each-card-enrolled-container{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 84%;
+    border-radius: 45px;
+    padding: 10px 14px;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 39px;
+}
+p.each-card-student-count{
+    align-self: center;
+    margin-bottom: 0;
+}
+.each-card-content {
+    background: #212121;
+    position: relative;
+    padding: 22px 10px 10px;
+    border-radius: 0 0 12px 12px;
+}
+p.card-content-title{
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    height: 46px;
+}
+p.card-content-para{
+    color: #858383;
+    font-weight: 100;
+    margin-bottom: 16px;
+    font-size: 14px;
+    height: 124px;
+}
+.enroll-btn-container {
+    text-align: right;
+    padding-right: 12px;
+    padding-bottom: 11px;
+}
+button.card-button a{
+    border: 1px solid #F8DA64;
+    transition: all .25s ease-in;
+    cursor: pointer;
+    color: #f8da64;
+    font-size: 15px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+button.card-button a:hover{
+    background-color: #f7da64;
+    outline: none;
+    border:none;
+    color:black;
+}
+
+/* whyus styles */
+section.whyus-section{
+    padding-top: 11%;
+}
+.why-us-content{
+    color:#818c96;
+    max-width: 52%;
+    margin: auto;
+}
+.why-us-cards{
+    max-width: 88%;
+    margin: auto;
+}
+
+.why-us-each-card{
+    background: #212121;
+    color: #d9d9d9;
+    text-align: center;
+    padding: 30px 55px 18px;
+    border-radius: 10px;
+    margin: 25px;
+    width: 279px;
+}
+p.why-us-each-card-content{
+    margin-top: 22px;
+    font-size: 18px;
+}
+
+/* why we stand out styles */
+.why-we-stand-out{
+    background: #212121;
+    max-width: 97%;
+    margin: 4% auto;
+    padding: 7%;
+}
+span.why-we-line{
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+span.why-we-standout-text{
+    color:#818c96;
+    font-weight: 200;
+}
+
+.why-we-stand-each-card {
+    text-align: center;
+    border: .5px solid #FFFFF0;
+    border-radius: 15px;
+    padding: 17px 13px 13px;
+}
+p.why-we-card-title{
+    color: ivory;
+    margin-top: 19px;
+}
+p.why-we-card-para{
+    color:#818c96;
+    font-weight: 100;
+    height: 123px;
+}
+
+/* who is hash include for section */
+
+p.who-is-call-to-action {
+    background: #D4E1FF;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #0b7077;
+    margin-bottom: 6px;
+}
+h2.who-is-for-heading{
+    font-size: 39px;
+    margin: 13px 0 20px;
+}
+.who-is-for-points ul li{
+    list-style: none;
+    list-style:url(./assests/tick-icon.svg);
+    padding-left: 10px;
+    margin-top:10px ;
+}
+
+
+/* about us styles */
+img.img-fluid.about-us-img {
+    width: 72%;
+}
+span.about-us-line {
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px;
+}
+span.about-heading {
+    color:#818c96;
+    font-size: 16px;
+    font-weight: 100;
+    vertical-align: middle;
+    margin-left: 22px;
+}
+section.about-us-section {
+    padding-top: 5%;
+    background-color: #212121;
+}
+h2.about-heading{
+    margin: 20px 0;
+}
+p.about-content{
+    color:#818c96;
+    font-weight: 100;
+    max-width: 80%;
+    line-height: 31px;
+}
+button.btn.about-btn {
+    border: 1px solid #F8DA64;
+    padding: 5px 31px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #f8da63;
+    transition: all .5s ease-in-out;
+}
+button.btn.about-btn:hover{
+    background-color: #f7da64;
+    color:#000;
+    outline: none;
+    border:none;
+}
+/* numbers section styles */
+.about-hash-number-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 0;
+}
+.each-number-section {
+    color: #fff;
+    text-align: center;
+}
+h2.about-us-number {
+    font-size: xxx-large;
+}
+span.indicator {
+    color: #f8da63;
+    vertical-align:top;
+}
+p.number-label {
+    font-weight: 100;
+    margin-top: 15px;
+    color:#818c96;
+}
+
+/* testimonial styles */
+section.testimonial-section {
+    background: #161616;
+    padding: 6%;
+}
+.testimonial-inner-container{
+    background: linear-gradient(143deg, rgba(32, 32, 32, 1) 45%, rgb(49 40 108) 100%);
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 11px;
+    height: 304px;
+}
+.student-details{
+    display: flex;
+    color: #fff;
+    margin-left: 27px;
+}
+p.course-name{
+    color:#818c96;
+    font-weight: 100;
+}
+.student-info{
+    margin-left: 16px;
+    margin-top: 6px;
+}
+.student-info p{
+    margin: 5px;
+}
+.student-info p.rating{
+    margin-top: 15px;
+}
+.rating img{
+    vertical-align: top;
+}
+p.student-feedback {
+    color:#818c96;
+    font-weight: 100;
+    margin-left: 26px;
+    max-width: 90%;
+    margin-top: 15px;
+}
+
+/* offer block styles */
+.offer-period-block {
+    background: url("assests/time-bg.50c998895fad7be4.svg") #624BFF;
+    max-width: 90%;
+    margin: 10% auto auto;
+    border-radius: 15px;
+    color: #fff;
+    padding: 3%;
+    background-position: 126px 127px;
+    background-repeat: no-repeat;
+}
+.offer-heading {
+    padding-left: 55px;
+}
+.offer-heading h2{
+    font-size: 44px;
+    font-weight: 600;
+}
+.offer-points-block {
+    margin: 40px 0;
+}
+p.offer-point{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.offer-time-heading {
+    font-weight: 300;
+}
+.offer-time {
+    display: flex;
+    justify-content: flex-end;
+}
+.time-block {
+    margin-right: 60px;
+    text-align: center;
+}
+.time-block h2{
+    font-size: 85px;
+}
+.time-block p{
+    font-size: 24px;
+}
+
+/* footer styles */
+footer{
+    background: url("../assests/footer-bg.cc00989cacc2122a.svg");
+    background-size: cover;
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    margin-top: 100px;
+}
+p.adress-lable{
+    margin: 7px 0;
+}
+p.adress-content{
+    margin: 2px 8px;
+}
+.contact-info span i{
+    margin-right: 10px;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+h4.footer-heading {
+    color: #0a033c;
+    font-size: 17px;
+    font-weight: 600;
+}
+footer .categories a, footer .links a {
+    margin-top: 12px;
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+/* about us page styles */
+p.hr-link {
+    height: 1px;
+    display: block;
+    background: #fff;
+    width: 76%;
+    margin: auto;
+}
+.our-team-section {
+    padding: 5% 0;
+}
+img.about-page-underline {
+    position: relative;
+    left: 69px;
+    top: -11px;
+}
+.why-us-content.text-center {
+    max-width: 40%;
+    margin: auto;
+}
+
+.each-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.team-info-block {
+    position: absolute;
+    top: 65px;
+    left: 43px;
+}
+h2.member-name {
+    font-size: 22px;
+    margin-bottom: 2px;
+    color:white;
+}
+p.member-designation{
+    text-align: center;
+    font-size: 13px;
+    color:white;
+}
+/* career guidance page styles */
+.guidance-banner{
+    text-align: center;
+    color: #fff;
+    padding: 6% 0;
+    background: url("assests/carrer-page-bg.f90597aae995a987.svg");
+}
+h2.banner-heading {
+    font-size: 52px;
+}
+p.banner-para{
+    font-size: 23px;
+    font-weight: 100;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    color: #818c96;
+}
+p.underline{
+    display: inline-block;
+    height: 3px;
+    width: 64px;
+    background: #e3c75c;
+    margin-left: 13px;
+}
+
+.qa-container {
+    color: #fff;
+    background: #212121;
+    padding: 20px;
+}
+.each-question-block{
+    display: flex;
+    margin-bottom: 15px;
+}
+p.name-icon {
+    background: #d2e6e4;
+    align-self: baseline;
+    color: #000;
+    padding: 8px 11px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+.question-block {
+    flex-basis: 100%;
+}
+.answer-block {
+    background: #000;
+    padding: 4px 10px;
+}
+p.question {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.answer {
+    max-width: 98%;
+    padding: 5px 15px;
+    font-weight: 200;
+    border-left: 3px solid #3CAA56;
+}
+.query-register-block {
+    background: #212121;
+    padding: 14px;
+    color: #fff;
+}
+h4.form-heading {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+.query-register-block label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.query-register-block input, select, textarea {
+    background: #212121;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    width: 300px;
+    color: #fff;
+    padding-left: 0;
+}
+.each-form-block{
+    margin-top: 20px;
+}
+button.btn.btn-submit{
+    border: 1px solid #F7DA64;
+    color: #f7da64;
+    margin-top: 20px;
+    padding: 6px 59px;
+    border-radius: 58px;
+}
+span.small-text{
+    margin-top: 20px;
+}
+
+/* frontend page stylees */
+.inner-frontend-page-container{
+    background-color: #212121;
+    padding:40px;
+    margin:30px 80px;
+}
+button.btn.enroll-btn{
+    border: 1px solid #F8DA64;
+    color: #f8da64;
+    font-size: 17px;
+    padding: 11px 24px;
+    z-index: 2;
+}
+.details-block .details-list li{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.inner-frontend-page-container .course-card-inner-container{
+    height: 320px;
+    border: .5px solid #fff;
+    border-radius: 9px;
+    padding: 30px;
+    background: #3442D9;
+    
+}
+.inner-frontend-page-container .card-content{
+    line-height: 30px;
+}
+.course-redirect-block button a{
+    color:#F7DA64;
+    font-size: 22px;
+}
+
+img.chatbot-icon {
+    position: fixed;
+    right: 39px;
+    bottom: 22px;
+    z-index: 20;
+    animation: action 1s infinite alternate;
+    cursor: pointer;
+    z-index: 2;
+}
+@keyframes action {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+    
+}
+.input-block input::placeholder,select::placeholder,textarea::placeholder{
+    color:#848485;
+}
+.input-block input:focus{
+    background-color:transparent;
+}
+button.enroll-btn:hover{
+    background-color: #f7da64;
+    color:#000;
+    outline: none;
+    border: none;
+
+
+}
+
+/* modal styles */
+.close{
+    background-color:#212121;
+    display: inline-block;
+    position:absolute;
+    border: none;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+button.close img{
+    position: absolute;
+    right: -13px;
+    top: -13px;
+}
+label{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+input,textarea,select{
+    margin-bottom: 10px;
+}
+
+.enroll-form-container {
+    background-color: #212121;
+    padding: 32px 30px;
+}
+.modal-heading-container {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-header{
+    border-bottom:none;
+}
+.enroll-form-container input,.enroll-form-container select,.enroll-form-container textarea {
+    background: #212121;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    padding-left: 0;
+}
+
+button.btn.btn-register {
+    border-radius: 45px;
+    border: 1px solid #F7DA64;
+    margin-top: 33px;
+    color: #f7da64;
+    padding: 8px 48px;
+    width: 300px;
+}
+
+
+/* cards styles */
+.shadow-1 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+  }
+  .blue-hover {
+    transition: all 0.25s ease-in;
+    /* border-bottom: 5px solid transparent; */
+  }
+  .blue-hover:hover {
+    transform: translateY(-5px);
+    border: none;
+    border-bottom: 5px solid #2196fe;
+    border-left: 1px solid #2196fe;
+    border-right: 1px solid #2196fe;
+    border-top: 1px solid #2196fe;
+    box-shadow: 0px 4px 8px #2196fe;
+  }
+  .why-us-each-card:hover{
+    transform: scale(1.2);
+	border:1px solid #0b7077;
+    
+    
+  }
+
+.testimonial-inner-container:hover{
+    border: 5px solid #2196fe;
+    transform: translate3d(-30px,-60px,60px) scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .navbar-brand img{
+        margin-left: 50px;
+    }
+    button.navbar-toggler{
+        width: 50px;
+        height: 35px;
+    margin-right: 20px;
+    }
+    
+h1.header-heading{
+    font-size: 34px;
+}
+.never-stop-button{
+    font-size: 12px;
+        padding: 6px 16px;
+    }
+    .explore-block{
+        margin: 0;
+        display: flex;
+    }
+    .explore-block a{
+        font-size: 11px;
+        padding: 6px 12px;
+        align-self: center;
+    }
+    .explore-block img{
+        width:175px;
+    }
+    .explore-more-container img{
+        width: 23%;
+        padding: 12px;
+        transform: translate(-50%, -22%);
+    }
+    .banner-image{
+        top:50px;
+    }
+    a.course-filter-item{
+        padding: 4px 10px;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+    h2.primary-heading {
+        font-size: 38px;
+    }
+    
+    p.why-us-each-card-content{
+        margin-top: 22px !important;
+        font-size: 15px !important;
+    }
+    .why-us-content.text-center {
+        max-width: 71%;
+        margin-bottom: 50px;
+    }
+    .container{
+        max-width: 700px !important;
+    }
+    .courses-cards-container{
+        margin-bottom: 20px;
+    }
+    .why-us-each-card{
+        padding: 15px 10px 5px;
+        border-radius: 10px;
+        margin: 6px;
+        width: 153px;
+        height: 150px;
+    }
+    p.why-us-each-card-content{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .why-we-stand-each-card {
+        margin-bottom: 20px;
+    }
+    .who-is-content-container{
+        margin-top: 34px;
+    }
+    .testimonial-inner-container{
+        margin-bottom: 32px;
+    }
+    .col-md-5.offer-time-block {
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .each-row {
+        padding-left: 29px;
+    }
+    img.img-fluid.team-img {
+        height: 320px;
+        max-width: 86%;
+    }
+    .team-info-block {
+        top: 94px;
+        left: 30px;
+    }
+    h2.member-name {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .query-register-block {
+        padding-left: 77px;
+    }
+    .inner-frontend-page-container .course-card-inner-container {
+        margin-bottom: 30px;
+    }
+    .offer-time{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 20px;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    .testimonial-inner-container:hover{
+    border: 5px solid #2196fe;
+    transform: translate3d(-30px,-60px,60px) scale(1);
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:576px){
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        vertical-align: top;
+    }
+.banner-image{
+    
+    position: relative;
+    left:55px;
+    top:20px;
+
+}
+h2.primary-heading {
+    font-size: 36px;
+}
+.why-us-content.text-center {
+    max-width: 79%;
+    margin: auto;
+}
+.who-is-content-container{
+    margin-left: 30px;
+}
+img.who-is-img{
+    padding: 20px;
+}
+.about-us-heading{
+    margin-left: 20px;
+}
+h2.who-is-for-heading {
+    font-size: 36px;
+}
+h2.about-heading {
+    margin-left: 20px;
+}
+p.about-content{
+    margin-left: 20px;
+}
+button.btn.about-btn{
+    margin-left: 20px;
+}
+.courses-list-container{
+    display: none;
+}
+.offer-heading h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+.offer-heading {
+    padding-left: 33px;
+}
+button.btn.enroll-btn{
+    padding: 8px 16px;
+    margin-left: 0px;
+}
+.offer-time {
+    display: flex;
+    justify-content: center;
+}
+.course-mobile-filters{
+    max-width: 90%;
+    margin:23px auto;
+    display: block;
+    
+}
+.course-mobile-filters select{
+    background-color: black;
+    color:white;
+}
+section.popular-section {
+    max-width: 90%;
+    margin: auto;
+}
+.courses-section .popular-section
+.container{
+    max-width: 700px !important;
+}
+.courses-cards-container{
+    
+    margin-bottom: 20px;
+}
+.course-filter-section {
+    flex-wrap: wrap;
+}
+.whyus-section .container{
+    
+}
+.why-us-each-card{
+    width: auto;
+    margin: 15px;
+    padding: 20px 21px 3px;
+}
+.why-us-cards-container{
+    display: flex;
+    flex-direction: column;
+}
+.why-we-stand-out-cards{
+    max-width: 87% !important;
+    margin: 35px auto !important;
+}
+.hide-mobile{
+    display: none;
+}
+.about-hash-number-section{
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: auto;
+}
+.testimonial-inner-container {
+    height: auto;
+}
+.time-block h2 {
+    font-size: 45px;
+}
+.time-block p{
+    font-size: 20px;
+}
+.time-block{
+    margin-right: 24px;
+    text-align: center;
+    }
+.each-row {
+        display: block !important;
+    }
+    img.img-fluid.team-img {
+        max-width: 100%;
+    }
+    .team-info-block {
+        top: 78px;
+        left: 34px;
+    }
+    h2.member-name {
+        font-size: 21px;
+        margin-bottom: 2px;
+    }
+    p.member-designation {
+        text-align: center;
+        font-size: 15px;
+    }
+    .guidance-banner{
+        background-position: bottom;
+        padding: 10% 0;
+    }
+    h2.banner-heading {
+        font-size: 32px;
+    }
+    .query-register-block {
+        padding-left: 29px;
+    }
+    .inner-frontend-page-container .course-card-inner-container {
+        margin-bottom: 30px;
+    }
+    .course-redirect-block{
+        display: block !important;
+        padding: 10px 60px;
+    }
+    .inner-frontend-page-container{
+        margin: 10px 30px !important;
+    }
+    .enroll-button .enroll-btn {
+        position: fixed;
+        bottom: 1px;
+        left: 0;
+        right: 0;
+        max-width: 96%;
+        margin: auto;
+        background: #f8da65;
+        color: #000 !important;
+        padding: 7.5px;
+        font-size: 22px !important;
+        transition: all 2s ease-in-out ;
+    }
+    footer{
+        margin-top: 7px;
+        
+    }
+    footer .col-md-4{
+        justify-content: flex-start !important;
+    }
+    .address-block{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:375px){
+    .navbar-brand img {
+        margin-left: 10px;
+    }
+    button.navbar-toggler {
+        width: 40px;
+        height: 30px;
+        margin-right: 6px;
+        padding: 0;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        vertical-align: middle;
+    }
+    .explore-block img {
+        width: 150px;
+    }
+    h2.primary-heading {
+        font-size: 24px;
+    }
+    h2.who-is-for-heading {
+        font-size: 28px;
+    }
+    .who-is-for-points{
+        padding-top: 10px;
+    }
+    .offer-heading h2{
+        font-size: 28px;
+
+    }
+    img.img-fluid.team-img {
+        max-width: 88%;
+        margin: auto;
+    }
+    img.about-page-underline {
+        position: relative;
+        left: 3px;
+        top: -14px;
+    }
+    section.testimonial-section {
+        padding: 3%;
+    }
+    .col-md-5.offer-time-block {
+        
+        margin-top: -22px;
+    }
+    .offer-time {
+        display: flex;
+        
+    }
+    .time-block h2 {
+        font-size: 33px !important;
+    }
+    p.offer-point {
+        font-size: 16px;
+    }
+    .header{
+        padding-right: 27px;
+    }
+    .explore-block a{
+        padding: 8px 10px !important;
+    }
+    .banner-image{
+        top: 10px !important;
+    }
+    .banner-container{
+        padding: 0% 0 2%;
+    }
+    p.card-content-para {
+        
+        font-size: 15px;
+    }
+    
+    .time-block p{
+        font-size: 16px !important;
+    }
+    .offer-heading {
+        padding-left: 35px;
+    }
+    .offer-heading h2 {
+        font-size: 31px;
+        font-weight: 600;
+    }
+    button.btn.enroll-btn {
+       
+        font-size: 15px;
+        padding: 7px 17px;
+        
+    }
+    .offer-heading {
+        padding-left: 22px;
+    }
+    .address-block{
+        padding-top: 25px;
+    }
+    .who-is-img{
+        max-width: 250px;
+    }
+    .who-is-content-container{
+        padding: 10px 20px;
+    }
+    .about-us-heading{
+        margin-left: 10px;
+    }
+    h2.about-heading{
+        margin: 20px 10px;
+    }
+    p.about-content{
+        margin-left: 12px;
+    }
+    button.btn.about-btn{
+        margin-left: 15px;
+        padding: 5px 18px;
+    }
+    .explore-more-container img {
+        width: 28%;
+        
+        transform: translate(-50%, -36%);
+    }
+    
+    .why-us-content.text-center {
+        max-width: 80%;
+        margin: auto;
+    }
+    p.banner-para {
+        font-size: 18px;
+    }
+    .inner-frontend-page-container {
+        margin: 10px 10px !important;
+        padding: 24px;
+    }
+     
+    .inner-frontend-page-container .course-card-inner-container {
+        height: auto;
+        padding: 15px;
+    }
+    why-us-each-card {
+        padding: 0;
+        margin: 10px;
+        width:0;
+
+    }
+    footer{
+        margin-top: -18px;
+        
+    }
+    .testimonial-inner-container:hover{
+        border: 5px solid #2196fe;
+        transform: translate3d(-10px,-30px,30px) scale(1);
+    }
+}
